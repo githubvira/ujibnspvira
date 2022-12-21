@@ -1,0 +1,131 @@
+#section1,
+#section2,
+#section3,
+#section4,
+#section5,
+#section6{
+    min-height: 20em;
+    margin-bottom: 3em;
+    border-radius: 3em;
+    padding-bottom: 70px;
+    text-align: center;
+    padding: 1em 1em 1em 1em;
+  border-radius: 3em;
+  box-shadow: 5px 5px 15px #aaa;
+}
+
+/* #section1{
+    background-color: blueviolet;
+}
+#section2{
+    background-color: yellow;
+}
+#section3{
+    background-color: turquoise;
+
+}
+#section4{
+    background-color: red;
+}
+#section5{
+    background-color: rgb(81, 255, 0);
+}
+#section6{
+    background-color: rgb(51, 0, 255);
+} */
+.sectionContainer{
+    
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 77%;
+    width: 100%;
+    /* background-color: #555555; */
+    position: fixed;
+    top: 250px;
+    bottom: 3em;
+    right: 3em;
+    /* left: 25%; */
+}
+
+
+
+/*  */
+
+/*  */
+body{
+  padding: 0 3em;
+  /* box-sizing: border-box; */
+}
+.webTitle{
+  color: white;
+}
+header{
+  background-color: blue;
+  padding: 2em 2em;
+  height: 14em;
+  border-radius: 1em;
+  
+}
+header a{
+  color: white;
+  transition: all 1s;
+}
+header a:hover{
+  color: white;
+  font-size: 1.3em;
+}
+
+
+.bigTitle{
+  text-align: center;
+  background-color: blue;
+  color: white;
+  border-radius: 3em;
+  padding: 0.3em 1em;
+  margin-bottom: 3em;
+}
+main div h1{
+  /* margin-bottom: 3em; */
+}
+  main{
+    padding: 1em 4em 20em 3em;
+    border-radius: 3em;
+    /* box-shadow: 5px 5px 15px #aaa; */
+    /* background-color: #555555; */
+  }
+  #myScrollspy{
+    /* width: 10%; */
+    /* background-color: red; */
+    border-radius: 1em;
+    box-shadow: 5px 5px 15px #aaa;
+    padding: 1em 2em;
+    /* margin-left: 3em; */
+  }
+  .sideNavContainer li{
+    background-color: blue;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 1em;
+    border-left: 3px solid red;
+    border-radius: 1em;
+  }
+  .sideNavContainer li:hover{
+    background-color: #0000aa;
+  }
+  
+  .sideNavContainer a{
+    width: 100%;
+    color: white;
+    font-weight: bold;
+  }
+  /*  */
+  
+ h1{
+  background-color: blue;
+  width: 100%;
+  border-radius: 3em;
+  margin-bottom: 1em;
+  padding: 0.3em 1em;
+  display: block;
+  color: #fff;
+ }
